@@ -18,6 +18,7 @@
 		7DBDABDA16BA808A0074B3AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDABD916BA808A0074B3AA /* Default@2x.png */; };
 		7DBDABDC16BA808A0074B3AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDABDB16BA808A0074B3AA /* Default-568h@2x.png */; };
 		7DBDABDF16BA808A0074B3AA /* Utilities.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDABDD16BA808A0074B3AA /* Utilities.xcdatamodeld */; };
+		7DBDABEE16BA91530074B3AA /* DeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDABED16BA91530074B3AA /* DeviceUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		7DBDABD916BA808A0074B3AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7DBDABDB16BA808A0074B3AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7DBDABDE16BA808A0074B3AA /* Utilities.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Utilities.xcdatamodel; sourceTree = "<group>"; };
+		7DBDABEC16BA91530074B3AA /* DeviceUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtilities.h; sourceTree = "<group>"; };
+		7DBDABED16BA91530074B3AA /* DeviceUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		7DBDABCB16BA808A0074B3AA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				7DBDABEA16BA91330074B3AA /* Classes */,
 				7DBDABD416BA808A0074B3AA /* AppDelegate.h */,
 				7DBDABD516BA808A0074B3AA /* AppDelegate.m */,
 				7DBDABDD16BA808A0074B3AA /* Utilities.xcdatamodeld */,
@@ -104,6 +108,23 @@
 				7DBDABDB16BA808A0074B3AA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DBDABEA16BA91330074B3AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7DBDABEB16BA913C0074B3AA /* DeviceUtilities */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7DBDABEB16BA913C0074B3AA /* DeviceUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7DBDABEC16BA91530074B3AA /* DeviceUtilities.h */,
+				7DBDABED16BA91530074B3AA /* DeviceUtilities.m */,
+			);
+			name = DeviceUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +195,7 @@
 				7DBDABD216BA808A0074B3AA /* main.m in Sources */,
 				7DBDABD616BA808A0074B3AA /* AppDelegate.m in Sources */,
 				7DBDABDF16BA808A0074B3AA /* Utilities.xcdatamodeld in Sources */,
+				7DBDABEE16BA91530074B3AA /* DeviceUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +312,7 @@
 				7DBDABE416BA808A0074B3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
